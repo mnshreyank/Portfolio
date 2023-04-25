@@ -1,5 +1,5 @@
 .header {
-  height: 100vh;
+  min-height: 100vh;
   overflow-y: hidden;
   text-align: center;
 }
@@ -7,7 +7,7 @@
 .me {
   width: 17rem;
   margin: auto;
-  background-color: blue;
+  background-color: var(--color-primary);
   padding: 2rem 1rem 0rem 1rem;
   border-top-right-radius: 6rem;
   border-top-left-radius: 6rem;
@@ -25,6 +25,6 @@
 
 @media screen and (max-width: 1024px) {
   .header__scroll {
-    /* display: none; */
+    display: none;
   }
 }

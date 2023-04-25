@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg-transparent);
+  position: fixed;
+  bottom: 6rem;
+  left: 50%;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-50%);
+  backdrop-filter: blur(15px);
+}
+
+.nav-container > a {
+  padding: 0.3rem;
+}
+
+.nav-container > a:hover {
+  background-color: var(--color-bg);
+  border-radius: 20%;
+}
+
+.active {
+  background-color: var(--color-bg);
+  border-radius: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-container {
+    bottom: 1.5rem;
+  }
+}

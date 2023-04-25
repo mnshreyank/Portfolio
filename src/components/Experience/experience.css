@@ -1,0 +1,61 @@
+.experience {
+  text-align: center;
+}
+.experience__header {
+  color: var(--color-primary);
+}
+
+.experience__container {
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  grid-template-columns: 40% 40%;
+  margin-top: 3rem;
+}
+
+.front-end,
+.back-end {
+  padding: 2rem;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg-variant);
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+
+.front-end:hover,
+.back-end:hover {
+  background-color: var(--color-bg);
+}
+
+.skill__tile__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.f-tilte {
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 100%;
+    padding: 16px;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience {
+    margin-top: 3rem;
+  }
+  .experience__container {
+    grid-template-columns: 100%;
+    margin-top: 1.5rem;
+  }
+  .skill__tile__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
