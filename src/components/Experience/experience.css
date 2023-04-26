@@ -39,6 +39,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .experience {
+    margin-top: 3rem;
+  }
   .experience__container {
     grid-template-columns: 100%;
     padding: 16px;
