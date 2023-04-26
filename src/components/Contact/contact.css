@@ -1,0 +1,39 @@
+.contact__page {
+  text-align: center;
+}
+.contact__page > h1 {
+  color: var(--color-primary);
+  margin-bottom: 2.5rem;
+}
+.contact__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact__container {
+  display: grid;
+  grid-template-columns: 25% 40%;
+  /* place-items: center; */
+  place-content: center;
+}
+
+.contact__form__container {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 100%;
+    place-content: center;
+    place-items: center;
+    gap: 1.5rem;
+  }
+  .contact__form__container {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+}

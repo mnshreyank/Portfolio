@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--color-primary);
+  padding: 2rem 0rem 10rem 0rem;
+  text-align: center;
+  color: var(--color-white);
+  z-index: 100;
+  margin-top: 2rem;
+}
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.permanent__links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__link {
+  color: var(--color-white);
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.social__links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}

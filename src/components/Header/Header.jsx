@@ -19,7 +19,7 @@ const Header = () => {
           <HeaderSocial />
         </div>
         <div className="header__scroll">
-          <a href="#contact">Scroll</a>
+          <a href="#contact">Scroll &gt;&gt;</a>
         </div>
       </div>
     </section>

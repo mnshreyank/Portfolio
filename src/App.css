@@ -23,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: 1800px;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -31,6 +32,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
+
   color: var(--color-white);
   /* background-image: url(./assets/bg-texture.png); */
 }
@@ -79,4 +81,19 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+input,
+textarea {
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  background-color: inherit;
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+  width: 100%;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid var(--color-primary);
 }
