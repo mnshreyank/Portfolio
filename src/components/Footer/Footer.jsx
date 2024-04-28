@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGoogleCircle, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "./footer.css";
 
 const Footer = () => {
@@ -24,11 +24,11 @@ const Footer = () => {
         </a>
       </div>
       <div className="social__links">
-        <a href="https://in.linkedin.com/">
+        <a href="www.linkedin.com/in/shreyank-m-n-3b0830184">
           <AiFillLinkedin size="24px" color="white" />
         </a>
-        <a href="https://google.com">
-          <AiFillGoogleCircle size="24px" color="white" />
+        <a href="https://github.com/mnshreyank?tab=repositories">
+          <AiFillGithub size="24px" color="white" />
         </a>
       </div>
     </div>
