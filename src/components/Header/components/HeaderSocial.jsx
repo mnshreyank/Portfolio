@@ -9,15 +9,15 @@ import "./headerSocial.css";
 const HeaderSocial = () => {
   return (
     <div className="header-social-container">
-      <a href="https://github.com/">
+      <a href="https://github.com/mnshreyank?tab=repositories">
         <AiFillGithub size="24px" />
       </a>
-      <a href="https://in.linkedin.com/">
+      <a href="www.linkedin.com/in/shreyank-m-n-3b0830184">
         <AiFillLinkedin size="24px" />
       </a>
-      <a href="https://google.com">
+      {/* <a href="https://google.com">
         <AiFillGoogleCircle size="24px" />
-      </a>
+      </a> */}
     </div>
   );
 };

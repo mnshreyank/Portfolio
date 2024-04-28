@@ -11,8 +11,8 @@ const Contact = () => {
       id: 1,
       icon: <MdEmail />,
       title: "Email",
-      contactInfo: "appdem21@gmail.com",
-      cref: "mailto:appdem21@gmail.com",
+      contactInfo: "shreyankmn21@gmail.com",
+      cref: "mailto:shreyankmn21@gmail.com",
     },
     {
       id: 2,
