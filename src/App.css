@@ -6,7 +6,6 @@
   list-style: none;
   text-decoration: none;
   border: none;
-  /* outline: none; */
   box-sizing: border-box;
 }
 
@@ -32,10 +31,9 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
-
   color: var(--color-white);
-  /* background-image: url(./assets/bg-texture.png); */
 }
+
 section {
   min-height: 100vh;
   padding-top: 4rem;

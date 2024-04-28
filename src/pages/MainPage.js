@@ -9,30 +9,13 @@ import NavigationPane from "../components/NavigationPane/NavigationPane";
 import Projects from "../components/Projects/Projects";
 
 const MainPage = () => {
-  //   const [showButton, setShowButton] = useState(false);
-
-  //   useEffect(() => {
-  //     const handleScroll = () => {
-  //       const scrollPosition = window.pageYOffset;
-  //       const screenHeight = window.innerHeight;
-  //       const shouldShowButton = scrollPosition > screenHeight;
-  //       setShowButton(shouldShowButton);
-  //     };
-
-  //     window.addEventListener("scroll", handleScroll);
-
-  //     return () => {
-  //       window.removeEventListener("scroll", handleScroll);
-  //     };
-  //   }, []);
-
   return (
     <div>
       <Header />
       <NavigationPane />
       <About />
       <Experience />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <Footer />
       <MoveTop />

@@ -23,12 +23,12 @@
 
 .nav-container > a:hover {
   background-color: var(--color-bg);
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 .active {
   background-color: var(--color-bg);
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1024px) {
