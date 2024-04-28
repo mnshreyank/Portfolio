@@ -1,7 +1,7 @@
 import React from "react";
 import { FaMedal } from "react-icons/fa";
 import { GiBrain, GiSecretBook } from "react-icons/gi";
-import meAbout from "../../assets/me-about.jpg";
+import meAbout from "../../assets/me-about.jpeg";
 import "./about.css";
 
 const About = () => {
