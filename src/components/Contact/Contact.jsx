@@ -28,11 +28,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    console.log(form.current);
+
     emailjs.sendForm(
-      "service_v6xbqos",
-      "template_t76juw4",
+      "service_65fihg6",
+      "template_uogcvde",
       form.current,
-      "T8DDvtEIV2dTTKNFh"
+      "t7E0Afg5S1x87YGmA"
     );
     e.target.reset();
   };
