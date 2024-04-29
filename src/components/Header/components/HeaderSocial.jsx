@@ -12,7 +12,7 @@ const HeaderSocial = () => {
       <a href="https://github.com/mnshreyank?tab=repositories">
         <AiFillGithub size="24px" />
       </a>
-      <a href="www.linkedin.com/in/shreyank-m-n-3b0830184">
+      <a href="https://www.linkedin.com/in/shreyank-m-n-3b0830184/">
         <AiFillLinkedin size="24px" />
       </a>
       {/* <a href="https://google.com">
