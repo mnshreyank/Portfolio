@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../../assets/SHREYANK_M_N_Resume.pdf";
+import CV from "../../../assets/SHREYANK_resume.pdf";
 
 import "./contactBtnContainer.css";
 
