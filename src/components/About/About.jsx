@@ -9,13 +9,13 @@ const About = () => {
     {
       id: 1,
       title: "Experience",
-      description: "3+ years of experience",
+      description: "4 years of experience",
       icon: <FaMedal color="#4db5ff" size="24px" />,
     },
     {
       id: 2,
       title: "Skills",
-      description: "React, HTML, CSS, JS, Typescript, NodeJS,",
+      description: "React, HTML, CSS, JS, Typescript, Redux, NodeJS",
       icon: <GiBrain color="#4db5ff" size="24px" />,
     },
     {
@@ -49,8 +49,8 @@ const About = () => {
           <div className="about__text">
             <p>
               Currently working as a Frontend developer in Optum. I have a total
-              experience of 3 year and have worked on latest frontend
-              technologies sunch as React, HTML, CSS, JavaScript, Typescript and
+              experience of 4 years and have worked on latest frontend
+              technologies such as React, HTML, CSS, JavaScript, Typescript and
               have worked on several projects that are responsive and user
               friendly.
             </p>
